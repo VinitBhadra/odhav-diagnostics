@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" fill="none" role="img" aria-label="Digital X-Ray and 12-Lead ECG Room at Odhav Diagnostics">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E7F3F8"/>
+      <stop offset="100%" stop-color="#EEF7F4"/>
+    </linearGradient>
+    <linearGradient id="xrayFrame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F2A36"/>
+      <stop offset="100%" stop-color="#081C24"/>
+    </linearGradient>
+    <filter id="sh2" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0A2E38" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="560" fill="url(#bg2)"/>
+  <circle cx="150" cy="430" r="160" fill="#0F768A" fill-opacity="0.08"/>
+  <circle cx="760" cy="130" r="150" fill="#189A6C" fill-opacity="0.08"/>
+
+  <!-- Floor line -->
+  <rect x="0" y="420" width="900" height="140" fill="#FFFFFF" fill-opacity="0.72"/>
+  <line x1="0" y1="420" x2="900" y2="420" stroke="#C5DDE3" stroke-width="3"/>
+
+  <!-- Left: Illuminated Digital X-Ray Viewer Panel -->
+  <g filter="url(#sh2)">
+    <rect x="78" y="84" width="376" height="296" rx="18" fill="#FFFFFF" stroke="#C2DBE3" stroke-width="3"/>
+    <rect x="98" y="104" width="336" height="256" rx="12" fill="url(#xrayFrame)"/>
+    <!-- Stylized Chest Radiograph Silhouette -->
+    <path d="M266 128 V338" stroke="#68A3B8" stroke-width="8" stroke-linecap="round" stroke-opacity="0.5"/>
+    <!-- Left & Right Ribcage / Lungs -->
+    <path d="M254 156 C214 158 182 198 182 252 C182 292 204 316 248 312 C254 272 254 202 254 156 Z" fill="#93C5FD" fill-opacity="0.18" stroke="#7DD3FC" stroke-width="2.5" stroke-opacity="0.55"/>
+    <path d="M278 156 C318 158 350 198 350 252 C350 292 328 316 284 312 C278 272 278 202 278 156 Z" fill="#93C5FD" fill-opacity="0.18" stroke="#7DD3FC" stroke-width="2.5" stroke-opacity="0.55"/>
+    <!-- Rib arcs -->
+    <path d="M204 186 Q230 178 250 186 M194 214 Q224 204 250 214 M192 244 Q224 234 250 244 M196 274 Q224 264 250 274" stroke="#BAE6FD" stroke-width="2.5" stroke-opacity="0.48" stroke-linecap="round"/>
+    <path d="M328 186 Q302 178 282 186 M338 214 Q308 204 282 214 M340 244 Q308 234 282 244 M336 274 Q308 264 282 274" stroke="#BAE6FD" stroke-width="2.5" stroke-opacity="0.48" stroke-linecap="round"/>
+    <!-- Clavicles -->
+    <path d="M256 150 Q215 138 176 154 M276 150 Q317 138 356 154" stroke="#E0F2FE" stroke-width="3.5" stroke-opacity="0.55" stroke-linecap="round"/>
+    <!-- Viewer corner markers -->
+    <path d="M114 134 V120 H128 M418 134 V120 H404 M114 330 V344 H128 M418 330 V344 H404" stroke="#34D399" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right: 12-Lead ECG Monitor Cart -->
+  <g filter="url(#sh2)">
+    <!-- Stand & Wheels -->
+    <rect x="632" y="346" width="24" height="76" rx="6" fill="#133D48"/>
+    <rect x="572" y="410" width="144" height="16" rx="8" fill="#0F768A"/>
+    <circle cx="586" cy="432" r="10" fill="#0A2E38"/>
+    <circle cx="702" cy="432" r="10" fill="#0A2E38"/>
+
+    <!-- Monitor Housing -->
+    <rect x="492" y="102" width="328" height="254" rx="20" fill="#FFFFFF" stroke="#C2DBE3" stroke-width="3"/>
+    <rect x="514" y="124" width="284" height="172" rx="12" fill="#0A2E38"/>
+
+    <!-- Subtle grid inside ECG screen -->
+    <path d="M514 168 H798 M514 212 H798 M514 256 H798 M570 124 V296 M628 124 V296 M686 124 V296 M744 124 V296" stroke="#189A6C" stroke-opacity="0.18" stroke-width="1"/>
+
+    <!-- Live Green ECG Waveform -->
+    <path d="M522 184 H564 L574 168 L586 206 L598 144 L610 212 L622 184 H664 L674 170 L686 204 L698 146 L710 210 L722 184 H790" stroke="#34D399" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Secondary Pleth Waveform -->
+    <path d="M522 254 Q544 232 566 254 T610 254 T654 254 T698 254 T742 254 T790 254" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.85"/>
+
+    <!-- BPM Readout Chip -->
+    <rect x="718" y="136" width="66" height="30" rx="8" fill="#189A6C" fill-opacity="0.24" stroke="#34D399" stroke-width="1.2"/>
+    <text x="751" y="156" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="800" fill="#34D399">72 BPM</text>
+
+    <!-- ECG Controls & Paper Printout -->
+    <circle cx="538" cy="324" r="9" fill="#189A6C"/>
+    <circle cx="566" cy="324" r="9" fill="#0F768A"/>
+    <circle cx="594" cy="324" r="9" fill="#CBD5E1"/>
+    <rect x="652" y="310" width="144" height="28" rx="6" fill="#EFF7F9" stroke="#C2DBE3" stroke-width="1.5"/>
+    <path d="M664 324 H784" stroke="#0F768A" stroke-width="2" stroke-dasharray="6 4"/>
+  </g>
+</svg>
