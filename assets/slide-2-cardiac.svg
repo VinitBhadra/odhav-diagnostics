@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" fill="none" role="img" aria-label="TMT Treadmill Stress Test and 12-Lead ECG Reports at Odhav Diagnostics">
+  <defs>
+    <linearGradient id="bgCard" x1="0" y1="0" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E6F4F7"/>
+      <stop offset="55%" stop-color="#F2FAF9"/>
+      <stop offset="100%" stop-color="#E3F4ED"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F768A"/>
+      <stop offset="100%" stop-color="#0A4E5D"/>
+    </linearGradient>
+    <filter id="shCard" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0A2E38" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="560" fill="url(#bgCard)"/>
+  <circle cx="150" cy="435" r="165" fill="#0F768A" fill-opacity="0.08"/>
+  <circle cx="765" cy="120" r="150" fill="#189A6C" fill-opacity="0.09"/>
+
+  <!-- Floor line -->
+  <rect x="0" y="422" width="900" height="138" fill="#FFFFFF" fill-opacity="0.72"/>
+  <line x1="0" y1="422" x2="900" y2="422" stroke="#C5DDE3" stroke-width="3"/>
+
+  <!-- Left: TMT Cardiac Stress Station (Treadmill + Telemetry Monitor) -->
+  <g filter="url(#shCard)">
+    <!-- Telemetry Screen Stand -->
+    <rect x="110" y="96" width="290" height="200" rx="18" fill="#FFFFFF" stroke="#C2DBE3" stroke-width="2.5"/>
+    <rect x="128" y="114" width="254" height="148" rx="10" fill="#0A2E38"/>
+    <!-- ECG Grid inside TMT Monitor -->
+    <path d="M128 150 H382 M128 188 H382 M128 226 H382 M178 114 V262 M230 114 V262 M282 114 V262 M334 114 V262" stroke="#189A6C" stroke-opacity="0.2" stroke-width="1"/>
+    <!-- Multi-lead stress ECG trace 1 -->
+    <path d="M136 154 H168 L175 142 L182 168 L190 128 L198 172 L206 154 H244 L251 142 L258 168 L266 128 L274 172 L282 154 H320 L327 142 L334 168 L342 128 L350 172 L358 154 H374" stroke="#34D399" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Multi-lead stress ECG trace 2 -->
+    <path d="M136 218 H174 L181 208 L188 228 L196 198 L204 232 L212 218 H252 L259 208 L266 228 L274 198 L282 232 L290 218 H374" stroke="#38BDF8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- TMT Badge -->
+    <rect x="138" y="122" width="126" height="22" rx="6" fill="#0F768A" fill-opacity="0.75"/>
+    <text x="201" y="137" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">TMT STRESS MONITOR</text>
+    <rect x="308" y="122" width="66" height="22" rx="6" fill="#189A6C" fill-opacity="0.32" stroke="#34D399" stroke-width="1"/>
+    <text x="341" y="137" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#34D399">STAGE II</text>
+
+    <!-- Monitor Pillar -->
+    <rect x="148" y="296" width="24" height="114" rx="8" fill="#133D48"/>
+    <!-- Treadmill Handrail -->
+    <path d="M160 308 H292 C310 308 320 322 320 342 V394" stroke="#0F768A" stroke-width="14" stroke-linecap="round"/>
+    <path d="M160 308 H292 C310 308 320 322 320 342" stroke="#99D3DF" stroke-width="4" stroke-linecap="round"/>
+    <!-- Treadmill Running Deck (slight incline for stress test) -->
+    <g transform="rotate(-5 255 404)">
+      <rect x="116" y="388" width="308" height="32" rx="14" fill="#0A2E38"/>
+      <rect x="130" y="394" width="280" height="12" rx="6" fill="#1E4B57"/>
+      <rect x="128" y="408" width="284" height="6" rx="3" fill="#189A6C"/>
+    </g>
+    <!-- Treadmill Feet -->
+    <rect x="136" y="416" width="26" height="8" rx="4" fill="#133D48"/>
+    <rect x="382" y="416" width="26" height="8" rx="4" fill="#133D48"/>
+  </g>
+
+  <!-- Right: 12-Lead ECG Report Sheet -->
+  <g filter="url(#shCard)">
+    <rect x="474" y="84" width="340" height="346" rx="20" fill="#FFFFFF" stroke="#C2DBE3" stroke-width="2.5"/>
+    <!-- Report Top Bar -->
+    <rect x="474" y="84" width="340" height="58" rx="20" fill="url(#tealGrad)"/>
+    <rect x="474" y="118" width="340" height="24" fill="url(#tealGrad)"/>
+    <text x="502" y="114" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">12-Lead ECG Report</text>
+    <rect x="706" y="99" width="84" height="24" rx="12" fill="#189A6C"/>
+    <text x="748" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">72 BPM</text>
+
+    <!-- ECG Graph Paper Box 1 (Lead I & II) -->
+    <rect x="498" y="160" width="292" height="88" rx="10" fill="#FFF7F8" stroke="#F6CDD4" stroke-width="1.5"/>
+    <path d="M498 182 H790 M498 204 H790 M498 226 H790 M534 160 V248 M570 160 V248 M606 160 V248 M642 160 V248 M678 160 V248 M714 160 V248 M750 160 V248" stroke="#F8D7DD" stroke-width="1"/>
+    <text x="510" y="177" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#0F768A">LEAD II</text>
+    <path d="M510 212 H542 L548 204 L554 220 L562 178 L570 226 L577 212 H616 L622 204 L628 220 L636 178 L644 226 L651 212 H690 L696 204 L702 220 L710 178 L718 226 L725 212 H778" stroke="#0A2E38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- ECG Graph Paper Box 2 (V1 - V6) -->
+    <rect x="498" y="262" width="292" height="88" rx="10" fill="#FFF7F8" stroke="#F6CDD4" stroke-width="1.5"/>
+    <path d="M498 284 H790 M498 306 H790 M498 328 H790 M534 262 V350 M570 262 V350 M606 262 V350 M642 262 V350 M678 262 V350 M714 262 V350 M750 262 V350" stroke="#F8D7DD" stroke-width="1"/>
+    <text x="510" y="279" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#0F768A">V1 – V6</text>
+    <path d="M510 314 H546 L552 306 L558 324 L566 284 L574 328 L581 314 H624 L630 306 L636 324 L644 284 L652 328 L659 314 H702 L708 306 L714 324 L722 284 L730 328 L737 314 H778" stroke="#0F768A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Report Verification Strip -->
+    <rect x="498" y="366" width="292" height="44" rx="10" fill="#EAF7F1" stroke="#BFE7D6" stroke-width="1.5"/>
+    <circle cx="524" cy="388" r="12" fill="#189A6C"/>
+    <path d="M519 388 L523 392 L530 384" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="546" y="385" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0E6B4A">Normal Sinus Rhythm · Report Ready</text>
+    <text x="546" y="401" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#35515B">Prompt Cardiac Printout &amp; Guidance</text>
+  </g>
+</svg>
