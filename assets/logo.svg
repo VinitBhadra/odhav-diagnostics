@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Odhav Diagnostics Logo">
+  <defs>
+    <linearGradient id="heartBlue" x1="8" y1="10" x2="36" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F768A"/>
+      <stop offset="100%" stop-color="#0B4F6C"/>
+    </linearGradient>
+    <linearGradient id="heartGreen" x1="30" y1="10" x2="56" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22B573"/>
+      <stop offset="100%" stop-color="#148F64"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#F0F8FA" stroke="#D5EAEF" stroke-width="2"/>
+  <!-- Left blue heart lobe -->
+  <path d="M32 52C32 52 12 39.2 12 24.5C12 17.6 17.4 12.5 23.8 12.5C27.5 12.5 30.6 14.3 32 16.9V52Z" fill="url(#heartBlue)"/>
+  <!-- Right green heart lobe -->
+  <path d="M32 52C32 52 52 39.2 52 24.5C52 17.6 46.6 12.5 40.2 12.5C36.5 12.5 33.4 14.3 32 16.9V52Z" fill="url(#heartGreen)"/>
+  <!-- Crisp medical cross -->
+  <rect x="28.5" y="22" width="7" height="19" rx="2" fill="#FFFFFF"/>
+  <rect x="22.5" y="28" width="19" height="7" rx="2" fill="#FFFFFF"/>
+</svg>

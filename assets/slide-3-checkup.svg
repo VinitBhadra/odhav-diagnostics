@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" fill="none" role="img" aria-label="Preventive and Industrial Health Checkups at Odhav Diagnostics">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E6F5F0"/>
+      <stop offset="50%" stop-color="#F5FBFC"/>
+      <stop offset="100%" stop-color="#E3F2F7"/>
+    </linearGradient>
+    <linearGradient id="desk3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F768A"/>
+      <stop offset="100%" stop-color="#0A4E5D"/>
+    </linearGradient>
+    <filter id="sh3" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0A2E38" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="560" fill="url(#bg3)"/>
+  <circle cx="720" cy="430" r="170" fill="#0F768A" fill-opacity="0.08"/>
+  <circle cx="170" cy="120" r="140" fill="#189A6C" fill-opacity="0.09"/>
+
+  <!-- Left: Full-Body Health Checkup Report Clipboard -->
+  <g filter="url(#sh3)">
+    <rect x="95" y="76" width="320" height="404" rx="22" fill="#FFFFFF" stroke="#C5DFE6" stroke-width="2.5"/>
+    <!-- Clipboard clip -->
+    <rect x="195" y="58" width="120" height="36" rx="10" fill="#0A2E38"/>
+    <circle cx="255" cy="76" r="6" fill="#34D399"/>
+
+    <!-- Report Header -->
+    <rect x="124" y="114" width="262" height="64" rx="12" fill="#EDF7F9"/>
+    <circle cx="158" cy="146" r="18" fill="#189A6C"/>
+    <path d="M150 146 L156 152 L167 140" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="190" y="132" width="142" height="12" rx="6" fill="#0F768A"/>
+    <rect x="190" y="152" width="102" height="9" rx="4.5" fill="#4B646D" fill-opacity="0.5"/>
+
+    <!-- Test Check Rows -->
+    <g>
+      <rect x="124" y="198" width="262" height="48" rx="10" fill="#F8FCFD" stroke="#DCECEF" stroke-width="1.5"/>
+      <circle cx="148" cy="222" r="9" fill="#189A6C" fill-opacity="0.18"/>
+      <path d="M144 222 L147 225 L153 219" stroke="#189A6C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="168" y="213" width="122" height="9" rx="4.5" fill="#132930" fill-opacity="0.82"/>
+      <rect x="168" y="228" width="84" height="7" rx="3.5" fill="#4B646D" fill-opacity="0.45"/>
+      <rect x="318" y="212" width="52" height="20" rx="10" fill="#DCFCE7"/>
+      <text x="344" y="226" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#117A55">Normal</text>
+    </g>
+
+    <g>
+      <rect x="124" y="260" width="262" height="48" rx="10" fill="#F8FCFD" stroke="#DCECEF" stroke-width="1.5"/>
+      <circle cx="148" cy="284" r="9" fill="#189A6C" fill-opacity="0.18"/>
+      <path d="M144 284 L147 287 L153 281" stroke="#189A6C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="168" y="275" width="132" height="9" rx="4.5" fill="#132930" fill-opacity="0.82"/>
+      <rect x="168" y="290" width="92" height="7" rx="3.5" fill="#4B646D" fill-opacity="0.45"/>
+      <rect x="318" y="274" width="52" height="20" rx="10" fill="#DCFCE7"/>
+      <text x="344" y="288" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#117A55">Normal</text>
+    </g>
+
+    <g>
+      <rect x="124" y="322" width="262" height="48" rx="10" fill="#F8FCFD" stroke="#DCECEF" stroke-width="1.5"/>
+      <circle cx="148" cy="346" r="9" fill="#0F768A" fill-opacity="0.18"/>
+      <path d="M144 346 L147 349 L153 343" stroke="#0F768A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="168" y="337" width="118" height="9" rx="4.5" fill="#132930" fill-opacity="0.82"/>
+      <rect x="168" y="352" width="76" height="7" rx="3.5" fill="#4B646D" fill-opacity="0.45"/>
+      <rect x="318" y="336" width="52" height="20" rx="10" fill="#E0F2FE"/>
+      <text x="344" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#0F768A">Clear</text>
+    </g>
+
+    <!-- Bottom summary bar -->
+    <rect x="124" y="392" width="262" height="58" rx="12" fill="url(#desk3)"/>
+    <text x="255" y="418" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Preventive &amp; Corporate Checkups</text>
+    <text x="255" y="437" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#D7E7EC">Pre-Employment · Annual Health Panels</text>
+  </g>
+
+  <!-- Right: Consultation & Clinical Care Card + Stethoscope -->
+  <g filter="url(#sh3)">
+    <rect x="462" y="106" width="346" height="214" rx="20" fill="#FFFFFF" stroke="#C5DFE6" stroke-width="2.5"/>
+    <!-- Brand Heart-Cross Mark -->
+    <path d="M532 232 C532 232 496 208 496 182 C496 169 506 159 518 159 C524.5 159 529.5 162.5 532 167.5 V232 Z" fill="#0F768A"/>
+    <path d="M532 232 C532 232 568 208 568 182 C568 169 558 159 546 159 C539.5 159 534.5 162.5 532 167.5 V232 Z" fill="#189A6C"/>
+    <rect x="526.5" y="177" width="11" height="29" rx="2.5" fill="#FFFFFF"/>
+    <rect x="517.5" y="186" width="29" height="11" rx="2.5" fill="#FFFFFF"/>
+
+    <text x="594" y="178" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="22" font-weight="800" fill="#0A2E38">Odhav Diagnostics</text>
+    <text x="594" y="202" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#189A6C">Complete Healthcare Solution</text>
+    <rect x="594" y="220" width="176" height="28" rx="14" fill="#EDF7F9"/>
+    <text x="682" y="238" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#0F768A">Open Daily · 8 AM – 9 PM</text>
+
+    <!-- Review badge strip inside card -->
+    <rect x="492" y="264" width="286" height="36" rx="10" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1.5"/>
+    <text x="635" y="287" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#92400E">★★★★★ 4.7 Google Rating · Gentle Patient Care</text>
+  </g>
+
+  <!-- Stethoscope & Health Shield Accent Card (Bottom Right) -->
+  <g filter="url(#sh3)">
+    <rect x="462" y="344" width="346" height="136" rx="20" fill="url(#desk3)"/>
+    <!-- Stethoscope icon -->
+    <circle cx="520" cy="412" r="34" fill="#FFFFFF" fill-opacity="0.14"/>
+    <path d="M506 394 V412 A14 14 0 0 0 534 412 V394 M520 426 V436 A8 8 0 0 0 536 436 V422" stroke="#34D399" stroke-width="3.2" stroke-linecap="round"/>
+    <circle cx="536" cy="418" r="5" fill="#FFFFFF"/>
+    <text x="574" y="402" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Guided Test Experience</text>
+    <text x="574" y="426" font-family="Inter, Arial, sans-serif" font-size="13" fill="#D7E7EC">Chhiri, Chharwada, Vapi · Gujarat</text>
+  </g>
+</svg>
